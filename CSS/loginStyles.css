@@ -1,19 +1,39 @@
-*{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+body{/*background-color: red;*/
+    background-image: url(/IMG/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: rigth-center;
+    background-size:cover;
+   
+}
+
+
+
 h1{
-    color: cadetblue;
+    color: rgba(38, 217, 233, 0.519);
     margin-left: 40%;
 }
     .login{display: flex;
         flex-direction: column;
         width: 15%;
-        align-self: center;
         margin-left: 40%;
+        gap: 10%;
+        background-position: center;
+        height: fit-content;
+        display: block;
+       /* background-image: url(IMG/fondo.jpg);*/
+        
 
     }
-    #login{
+    #loginForm{
     margin-top: 10%;
+    color:rgb(240, 255, 247);
+    
     }
+
     label{
         margin-top: 10%;
     }
     
+    .input-icon{
+        border-radius: 25%;
+    }

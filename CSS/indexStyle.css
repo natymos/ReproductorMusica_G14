@@ -1,6 +1,13 @@
+*{background-color: black;}
+
 h1{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-family: Impact, Haettenschweiler,'Arial Narrow Bold',sans-serif;
+color: antiquewhite;
     
+}
+.portadaReproductor{margin:1em;
+    background-image: ;
+
 }
 #reproductorPrincipal{
     display: flex;
@@ -8,6 +15,7 @@ h1{
     align-items: center;
    }
 #lateralIzq{
+        flex:40%;
         display: flex;
         flex-direction: column;
         width: 15%;
@@ -16,6 +24,7 @@ h1{
         column-gap: 25px;        
 }
 #lateralDer{
+        flex: 60%;
     flex-direction: column;
         width: 15%;
         align-self: center;
