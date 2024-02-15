@@ -1,39 +1,35 @@
-body{/*background-color: red;*/
+body{background-color: red;
     background-image: url(/IMG/fondo.jpg);
     background-repeat: no-repeat;
-    background-position: rigth-center;
     background-size:cover;
-   
+   height:100%;
 }
 
 
 
 h1{
-    color: rgba(38, 217, 233, 0.519);
-    margin-left: 40%;
+    color: rgba(181, 248, 47, 0.519);
+    /*margin-left: 40%*/;
+    object-position: center;
 }
     .login{display: flex;
         flex-direction: column;
         width: 15%;
-        margin-left: 40%;
+        /*margin-left: 40%*/;
         gap: 10%;
         background-position: center;
         height: fit-content;
         display: block;
-       /* background-image: url(IMG/fondo.jpg);*/
-        
-
+               
     }
     #loginForm{
     margin-top: 10%;
     color:rgb(240, 255, 247);
-    
     }
 
     label{
         margin-top: 10%;
     }
-    
     .input-icon{
         border-radius: 25%;
     }
