@@ -1,0 +1,19 @@
+*{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+h1{
+    color: cadetblue;
+    margin-left: 40%;
+}
+    .login{display: flex;
+        flex-direction: column;
+        width: 15%;
+        align-self: center;
+        margin-left: 40%;
+
+    }
+    #login{
+    margin-top: 10%;
+    }
+    label{
+        margin-top: 10%;
+    }
+    
