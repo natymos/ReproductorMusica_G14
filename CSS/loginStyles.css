@@ -1,5 +1,9 @@
-body{background-color: red;
-    background-image: url(/IMG/fondo.jpg);
+body{background-color: whitesmoke;
+    
+}
+
+.portadaLogIn{
+    background-color: rgb(255, 77, 0);
     background-repeat: no-repeat;
     background-size:cover;
    height:100%;
@@ -12,20 +16,21 @@ h1{
     .login{display: flex;
         flex-direction: column;
         width: 15%;
-        /*margin-left: 40%*/;
+        text-align: center;
         gap: 10%;
         background-position: center;
         height: fit-content;
         display: block;
-               
     }
     #loginForm{
     margin-top: 10%;
     color:rgb(240, 255, 247);
+   text-align: center;
     }
 
     label{
         margin-top: 10%;
+        text-align: center;
     }
     .input-icon{
         border-radius: 25%;
