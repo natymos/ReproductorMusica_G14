@@ -5,12 +5,9 @@ body{background-color: red;
    height:100%;
 }
 
-
-
 h1{
     color: rgba(181, 248, 47, 0.519);
-    /*margin-left: 40%*/;
-    object-position: center;
+    margin-left: 40%;
 }
     .login{display: flex;
         flex-direction: column;
