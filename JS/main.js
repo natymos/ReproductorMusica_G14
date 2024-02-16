@@ -237,4 +237,5 @@ play.addEventListener("click", miReproductor.reproducir());
 //Agregar evento al boton stop del HTML
 let botonStop=document.getElementById('stop');
 botonStop.addEventListener("click", miReproductor.pause());
+this.audio.pause();
 
