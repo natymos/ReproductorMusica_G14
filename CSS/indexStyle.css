@@ -1,16 +1,16 @@
-*{background-color: rgb(200, 204, 217);}
+*{background-color: rgb(59, 41, 158);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 
 h1{
-font-family: Impact, Haettenschweiler,'Arial Narrow Bold',sans-serif;
-color: rgb(186, 112, 16);
+    color: white;
+    /*padding-top: 2%;*/
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 text-align: center;
     
 }
-.portadaReproductor{margin:1em;
-    background-image: ;
 
-}
 #reproductorPrincipal{
+    color:white;
     display: flex;
     flex-direction: row;
     /*align-items: center*/;
@@ -18,26 +18,34 @@ text-align: center;
     width: 100%;
     overflow-x: hidden;
     overflow-y: hidden;
+   /* border-color: aqua;
+    border: 2rem;*/
    }
 #lateralIzq{
+    color:white;
         flex:40%;
         display: flex;
         flex-direction: column;
-        ;
         align-self: center;
-        margin-left: 5%;
-        column-gap: 25px;  
-        overflow-x: hidden;      
+        column-gap: 2px;  
+        overflow-x: hidden;
+        align-items:center;  
+        width: max-content;   
+        height: max-content ; 
 }
 #lateralDer{
+    color:white;
         flex: 60%;
         display: flex;
     flex-direction: column;
-        margin-left: 5%;
         align-items: center;
         overflow-x: hidden;
+        width: max-content;
+        height: max-content ; 
+        
 }
 #repControl{
+    color:white;
     display: flex;
     flex-direction: row;
     gap: 15%;
@@ -45,14 +53,24 @@ text-align: center;
      
       
 }
+
 #search{
-    margin-top: 20%;
+    color:white;
+    margin-top: 0%;
     width: fit-content;
     overflow-x: hidden;
 }
+#btnBuscar{
+    color: aliceblue;
+}
+.input-icon{
+    border-color: rgb(244, 255, 240);
+    border-radius: 25%;
+    color: white;
+}
 
 #searchResults{
-    margin-top: 10%;
+    margin-top: 5%;
     width: fit-content;
     height: 150px;
     border: 3px solid;
@@ -63,7 +81,7 @@ text-align: center;
 }
 
 #myPlaylist{
-    margin-top: 10%;
+    margin-top: 5%;
     width: fit-content;
     height: 150px;
     border: 3px solid;
@@ -74,12 +92,14 @@ text-align: center;
 }
 
 #favorites{
-    margin-top: 10%;
+    margin-top: 5%;
     width: fit-content;
     height: 150px;
     border: 3px solid;
     padding: 10px;
     border-color:  rgb(255, 244, 244);
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 #songData{
@@ -93,5 +113,7 @@ text-align: center;
 
 #imagenAlbum img{
     width: 100%;
+    height: auto;
+    
    
 }

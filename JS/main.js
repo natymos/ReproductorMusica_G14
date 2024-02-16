@@ -239,3 +239,7 @@ let botonStop=document.getElementById('stop');
 botonStop.addEventListener("click", miReproductor.pause());
 this.audio.pause();
 
+pause=function(){
+    this.audio.pause();
+}
+
