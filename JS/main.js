@@ -73,9 +73,9 @@ class Reproductor{
             new Cancion(3,"Here With Me", "Dido", "Duracion 4","noAngel.jpg", "1998", "Balada", "hereWithMe.mp3"),
             new Cancion(4,"Waterloo", "ABBA", "2:45","Waterloo.jpg", "1973", "Pop", "waterloo.mp3"),
             new Cancion(5,"A whole new world", "Zayn & Zhavia Ward", "4:02","aWholeNewWorld.jpg", "2019", "Pop", "aWholeNewWorld.mp3"),
-            new Cancion(6,"I dont care", "Ed Sheeran & Justin Bieber ", "3:39","iDon'tCare.jpg", "2019", "Electropop", "iDontCare.mp3"),
-            new Cancion(7,"Love by grace ", " Lara Fabian ", "4:07"," loveByGrace.jpg", "1999", "Pop", " loveByGrace.mp3"), 
-            new Cancion(8,"You and Me ", " Lifehouse ", "3:35"," youAndMe.jpg", "2005", " rock alternativo", " youAndMe.mp3"),
+            new Cancion(6,"I dont care", "Ed Sheeran & Justin Bieber ", "3:39","iDontCare.png", "2019", "Electropop", "iDontCare.mp3"),
+            new Cancion(7,"Love by grace ", " Lara Fabian ", "4:07","loveByGrace.jpg", "1999", "Pop", "loveByGrace.mp3"), 
+            new Cancion(8,"You and Me ", " Lifehouse ", "3:35","youAndMe.jpg", "2005", " rock alternativo", "youAndMe.mp3"),
             new Cancion(9,"Los caminos de la vida", "Vicentico", "3:56","Vicentico.jpg", "2004", "Rock en español", "cancion9.mp3"),
             new Cancion(10,"Irremediablemente tarde", "Verde 70", "4:30","Verde70.jpg", "2000", "Pop Rock", "cancion10.mp3"),
             new Cancion(11,"I hate everything about you", "Three Days Grace", "3:40","ThreeDaysGrace.jpg", "2003", "Post-grunge", "cancion11.mp3"),
@@ -93,6 +93,12 @@ class Reproductor{
             new Cancion(23,"Inevitable", "Shakira", "3:06","shakira.jpeg", "1995", "Balada", "shakira.mp3"),
             new Cancion(24,"Kiss me", "Ed Sheeran", "4:26","sheeran.png", "2015", "Balada", "sheeran.mp3"),
             new Cancion(25,"Dharma", "Sebastian Yatra", "3:03","yatra.jpg", "2021", "Balada", "yatra.mp3"),
+            new Cancion(26,"All I ask", "Adele", "4:39","adele.jpg", "2015", "Pop", "alliAsk.mp3"),
+            new Cancion(27,"Broken", "Amy Lee & Seether", "4:23","Broken.jpg", "2004", "Rock", "broken.mp3"),
+            new Cancion(28,"Iris", "Goo goo dolls", "3:36","Iris.jpg", "1998", "Pop Rock", "iris.mp3"),
+            new Cancion(29,"Talking to de Moon", "Bruno Mars", "3:35","BrunoMars.jpg", "2010", "pop", "brunoMars.mp3"),
+            new Cancion(30,"let me go", "three doors down", "3:59","letMeGo.jpg", "2005", "Rock", "letMeGo.mp3"),
+
         ];
         //Por defecto se coloca la primera cancion del catalogo como cancion actual
         this.cancionActual=this.catalogoCanciones[0];
