@@ -3,7 +3,6 @@
 
 h1{
     color: white;
-    /*padding-top: 2%;*/
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 text-align: center;
     
@@ -18,8 +17,8 @@ text-align: center;
     width: 100%;
     overflow-x: hidden;
     overflow-y: hidden;
-   /* border-color: aqua;
-    border: 2rem;*/
+    padding-bottom: 5%;
+   
    }
 #lateralIzq{
     color:white;
@@ -50,8 +49,8 @@ text-align: center;
     flex-direction: row;
     gap: 15%;
     align-items: center;
-     
-      
+    justify-content: center;
+         
 }
 
 #search{
@@ -78,28 +77,31 @@ text-align: center;
     border-color: rgb(255, 244, 244);
     overflow-y: auto;
     overflow-x: hidden;
+    border-radius: 10%;
 }
 
 #myPlaylist{
-    margin-top: 5%;
+    
     width: fit-content;
-    height: 150px;
+    height: auto;
     border: 3px solid;
     padding: 10px;
     border-color:  rgb(255, 244, 244);
     overflow-x: hidden;
     overflow-y: auto;
+    border-radius: 10%;
 }
 
 #favorites{
-    margin-top: 5%;
+   
     width: fit-content;
-    height: 150px;
+    height: auto;
     border: 3px solid;
     padding: 10px;
     border-color:  rgb(255, 244, 244);
     overflow-x: hidden;
     overflow-y: auto;
+    border-radius: 10%;
 }
 
 #songData{
@@ -108,12 +110,15 @@ text-align: center;
     width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
+    padding-left: 100px;
 }
 
 
 #imagenAlbum img{
-    width: 100%;
-    height: auto;
+    padding-top: 20%;
+    width: 300px;
+    height: 300px;
+    
     
    
 }
