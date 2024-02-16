@@ -73,7 +73,7 @@ text-align: center;
     width: fit-content;
     height: 150px;
     border: 3px solid;
-    padding: 10px;
+    padding-top: 5%;
     border-color: rgb(255, 244, 244);
     overflow-y: auto;
     overflow-x: hidden;
